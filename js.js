@@ -50,10 +50,10 @@ function displayResult() {
 
     if (correctAnswers >= successThreshold) {
         resultContainer.innerHTML += '<p>Parabéns! Você ganhou um date! 🥳</p>';
-        resultContainer.innerHTML += '<img src="images/michael.png" alt="Michael Scott" style="width: 200px;">';
+        resultContainer.innerHTML += '<img src="assets/michael.png" alt="Michael Scott" style="width: 200px;">';
     } else {
         resultContainer.innerHTML += '<p>Infelizmente, você não ganhou o date. 😢</p>';
-        resultContainer.innerHTML += '<img src="images/faustao.jpg" alt="Faustão">';
+        resultContainer.innerHTML += '<img src="assets/faustao.jpg" alt="Faustão">';
     }
 }
 
