@@ -1,0 +1,19 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#game-container {
+    width: 70%;
+    margin: auto;
+}
+
+#question-container {
+    margin-bottom: 20px;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
